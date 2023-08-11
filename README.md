@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Guess Game using Next.js and Tailwind CSS
 
-## Getting Started
+This project is a simple guessing game where the user needs to guess a randomly generated number between 1 and 100. The
+game is developed using the Next.js framework and styled using the Tailwind CSS library.
 
-First, run the development server:
+## Screenshots
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+![Game Screenshot](https://i.ibb.co/pj4fLcx/Captura-de-ecran-din-2023-08-11-la-15-45-06.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to Run the Project
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/example-user/guess-game-nextjs-tailwind.git
+   cd guess-game-nextjs-tailwind
+2. Install the dependencies:
+    ```bash
+    npm install
+3. Run the application:
+    ```bash
+    npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## How the Game Works
 
-## Learn More
+Access the application in your browser at http://localhost:3000.
 
-To learn more about Next.js, take a look at the following resources:
+A random number between 1 and 100 is generated and hidden.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Enter a number in the input field and click the "Guess" button to submit your guess.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You will receive hints if the entered number is higher or lower than the target number.
 
-## Deploy on Vercel
+Continue guessing until you correctly guess the number.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Technologies Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Next.js - Framework for building web applications with React.
+Tailwind CSS - CSS library for building fast and flexible interfaces.
+
+## Contributions
+
+Contributions are welcome! If you'd like to contribute to this project, please open a pull request. For major changes,
+please create an issue first to discuss the proposed changes.
+
+## License
+This project is licensed under the MIT License. For more details, please refer to the LICENSE file.
+
+
+
